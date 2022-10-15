@@ -13,7 +13,7 @@ What are some of the most popular Java IDEs available in the market?
 Answer:
 
 Explain the entire java life cycle.
-Answer: A
+Answer: It starts with
 
 What is a class?
 Answer:
