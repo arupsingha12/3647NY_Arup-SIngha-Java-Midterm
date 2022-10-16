@@ -4,34 +4,37 @@ What is a programming language?
 Answer: It is a way to communicate with a machine.
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer: Jdk composed of Java Run Time Environment, Interpreter, compiler and archiver, Javadoc.
 
 What is an IDE?
-Answer:
+Answer: IDE = Integrated development environment, which helps programmer to develop software.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer:IntelliJ, Eclipse,NetBeans, BlueJ,DrJava etc.
 
 Explain the entire java life cycle.
-Answer: It starts with
+Answer: It starts with Editing, then Compiling the source code and finally Executing the byte code.
 
 What is a class?
-Answer:
+Answer: A class in java is an object constructor.
 
 What is an object?
-Answer:
+Answer: Object is an instance of a Java class.
 
 What is the entry point of a Java project?
-Answer:
+Answer:public static void main(String[] args)
 
 Why is the main() method static?
-Answer:
+Answer: Because Java can load the class into memory and call the main method.
 
 Which class is the superclass of all classes?
 Answer:
 
 What is difference between path and classpath variables?
-Answer:
+Answer: The main difference between PATH and CLASSPATH is that Path is set for
+java tools in java programs like java and javac, which are used to compile code.
+Whereas CLASSPATH is used by System or Application class loader to locate and load compile
+Java bytecodes stored in the class.
 
 What is the difference between an Interface and Abstract class?
 Answer:
