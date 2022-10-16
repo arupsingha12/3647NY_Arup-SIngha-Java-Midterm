@@ -10,6 +10,34 @@ public class Permutation {
 
     public static void main(String[] args) {
 
-    }
     // Implement Here
+    public static Set<String> getPermutation(String str) {
+
+        Set<String> permutation = new HashSet<>();
+
+        int length = str.length();
+
+        if (str == null) {
+            return null;
+        } else if (length == 0) {
+            permutation.add("");
+            return permutation;
+        }
+
+        char firstChar = str.charAt(0);
+
+        String ros = str.substring(1);
+
+        Set<String> restOfWords = getPermutation(ros);
+
+        for (String newString : restOfWords) {
+            for (int i = 0; i <= newString.length(); i++) {
+
+                permutation.add(newString.substring(0, i) + firstChar + newString.substring(i));
+
+            }
+        }
+        return permutation;
+    }
+
 }
